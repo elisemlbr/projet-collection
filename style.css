@@ -1,0 +1,12 @@
+.columns {
+    display: flex;
+    justify-content: center;
+}
+
+.elise {
+    border-radius: 50%;
+}
+
+.section {
+    padding: 5%;
+}

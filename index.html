@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="debug.css"> -->
+
+  <title>Elise's Music Collection</title>
+</head>
+
+<body>
+  <div class="section">
+    <article class="media">
+      <figure class="image is-128x128">
+        <img class="elise" src="img/me.jpg" alt="Elise">
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <h1 class="title ">Elise's Music Collection</h1>
+          <p class="subtitle">Hello Cutiepie. You found my website. Here, I put the music I listen everyday to keep me
+            going. </p>
+            <p class="subtitle">I put the links so you can listen to it too. Give it a try, you won't be deceived.</p> 
+        </div>
+      </div>
+  
+  </article>
+</div>
+
+  <div class="container">
+    <div class="section">
+      <div class="columns">
+        <div id="app" class="columns">
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card is-large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/jukebox.png" alt="Juke Box">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-light">REMIX</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Juke Box (Young Pulse Remix)</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Françoise Hardy</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Remix of a song Françoise Hardy made in 1980. You can hear the eighties vibes with a modern vibe to
+                  it. Very enjoyable to listen to when coding. <br />
+                  <a href="https://www.youtube.com/watch?v=dNAzNSoybuI"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/moonriver.jpg" alt="Moon River">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-danger">CHRISTMAS</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Moon River</p>
+                    <p>
+                      <span class="title is-6">
+
+                        <p class="subtitle is-6">Johnny Mercer (interpreted bu JJ Heller)</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Sweet music that you can listen to when the weather gets chilly. Isn’t the usual christmas music we
+                  listen to but definitly gives a wintery vibe to your evenings. <br />
+                  <a href="https://www.youtube.com/watch?v=qaKiUygz1tA"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/amourtesla.jpg" alt="Amour t'es là?">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-black">4LOVERS</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Amour t'es là?</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Banda Magda feat Snarky Puppy</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Music you can sing with your lover in unison. This version is the one with the well known band Snarky
+                  Puppy. You know you love them. <br />
+                  <a href="https://www.youtube.com/watch?v=JFkRtjrrM5k"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/lovewontletmedown.jpg" alt="Love won't let me down (reimagined)">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-light">REMIX</span>
+                <span class="tag is-primary">CHRISTIAN</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Love Won't Let Me Down (Reimagined)</p>
+                    <p>
+                      <span class="title is-6">
+
+                        <p class="subtitle is-6">Hillsong Young & Free</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Great remix of a great song. To get you moving everywhere you go. It’s awesome when you have trouble
+                  getting up in the morning. I recommend 100%.<br />
+                  <a href="https://www.youtube.com/watch?v=ME-08rmhRTI"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="columns">
+        <div id="app" class="columns">
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/madiba.jpg" alt="Madiba">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-link">GROOVE</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Madiba</p>
+                    <p>
+                      <span class="title is-6">
+
+                        <p class="subtitle is-6">Shaun Martin</p>
+                  </div>
+                </div>
+                <div class="content">
+                  That music will make all your driveways reaaal smooth. Be careful, and don’t groove too much, you
+                  could make an accident. <br />
+                  <a href="https://www.youtube.com/watch?v=NRemhfgIKsA"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/peoplegetup.jpg" alt="People Get Up And Drive Your Funky Soul">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-link">GROOVE</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">People Get Up And Drive Your Funky Soul</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">James Brown</p>
+                  </div>
+                </div>
+                <div class="content">
+                  You might recognize this song if you’re a fan of the spiderman series. Makes you dance and think you
+                  the evil spiderman. Except, you’re not.. I mean you can’t climb to walls. <br />
+                  <a href="https://www.youtube.com/watch?v=Nl-RVIdTUVI"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/rescue.jpg" alt="Rescue (chill mix)">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-light">REMIX</span>
+                <span class="tag is-primary">CHRISTIAN</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Rescue (chill mix)</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Lauren Daigle</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Makes your soul float in wellness for 3:47 minutes. Listen to it, you won’t regret it. This singer
+                  sings better than most of us do. <br />
+                  <a href="https://www.youtube.com/watch?v=2hNg0Ga8k2s"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/youare.jpg" alt="You are the best thing">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-black">4LOVERS</span>
+                <span class="tag is-link">GROOVE</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">You are the best thing</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Ray LaMontagne</p>
+                  </div>
+                </div>
+                <div class="content">
+                  You’ve heard it at weddings, don’t lie. It’s the ultimate first dance that newlyweds dance to. Let the
+                  romance flow through you. <br />
+                  <a href="https://www.youtube.com/watch?v=vJ3xTjvj9tw"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="section">
+      <div class="columns">
+        <div id="app" class="columns">
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/whitechristmas.jpeg" alt="White christmas">
+                </figure>
+              </div>
+              <div class="card-content">
+                <span class="tag is-danger">CHRISTMAS</span>
+                <div class="media">
+
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">White Christmas</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Irving Berlin (interpreted by Gavin James)</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Gavin James is Ed Sheeran’s cousin. Actually not. Or maybe? They look like each other though. Anyway,
+                  his version of “White Christmas” will send you directly under your christmas tree. <br />
+                  <a href="https://www.youtube.com/watch?v=1LlbtuENNZg"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div v-for="card in cardData" key="card.id" class="column is-4">
+            <div class="card large">
+              <div class="card-image">
+                <figure class="image is-16by9">
+                  <img src="img/lordremindme.jpg" alt="Lord Remind Me">
+                </figure>
+              </div>
+                
+              <div class="card-content">
+                <span class="tag is-danger">CHRISTMAS</span>
+                <span class="tag is-primary">CHRISTIAN</span>
+                <div class="media">
+                  
+                  <div class="media-content">
+                    <p class="title is-4 no-padding">Lord Remind me</p>
+                    <p>
+                      <span class="title is-6">
+                    </p>
+                    <p class="subtitle is-6">Jon & Valerie Guerra</p>
+                  </div>
+                </div>
+                <div class="content">
+                  That Christmas song that reminds you why Christmas exist as of today. It’s your Christmassy christmas
+                  christmased song. It’s sweet and reminds you of that holiday we all love. <br />
+                  <a href="https://www.youtube.com/watch?v=3VRjS4oRnM8"><i class="fa fa-2x fa-youtube-square"
+                      aria-hidden="true"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
