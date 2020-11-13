@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="style.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="debug.css"> -->
-
+  <link rel="stylesheet" href="style.css">
   <title>Elise's Music Collection</title>
 </head>
 
@@ -23,22 +23,22 @@
           <h1 class="title ">Elise's Music Collection</h1>
           <p class="subtitle">Hello Cutiepie. You found my website. Here, I put the music I listen everyday to keep me
             going. </p>
-            <p class="subtitle">I put the links so you can listen to it too. Give it a try, you won't be deceived.</p> 
+          <p class="subtitle">I put the links so you can listen to it too. Give it a try, you won't be deceived.</p>
         </div>
       </div>
-  
-  </article>
-</div>
+
+    </article>
+  </div>
 
   <div class="container">
     <div class="section">
       <div class="columns">
         <div id="app" class="columns">
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card is-large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/jukebox.png" alt="Juke Box">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/jukebox.png" alt="Juke Box">
                 </figure>
               </div>
               <div class="card-content">
@@ -67,11 +67,11 @@
 
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/moonriver.jpg" alt="Moon River">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/moonriver.jpg" alt="Moon River">
                 </figure>
               </div>
               <div class="card-content">
@@ -97,11 +97,11 @@
           </div>
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/amourtesla.jpg" alt="Amour t'es là?">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/amourtesla.jpg" alt="Amour t'es là?">
                 </figure>
               </div>
               <div class="card-content">
@@ -127,11 +127,11 @@
           </div>
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/lovewontletmedown.jpg" alt="Love won't let me down (reimagined)">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/lovewontletmedown.jpg" alt="Love won't let me down (reimagined)">
                 </figure>
               </div>
               <div class="card-content">
@@ -163,11 +163,11 @@
     <div class="section">
       <div class="columns">
         <div id="app" class="columns">
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/madiba.jpg" alt="Madiba">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/madiba.jpg" alt="Madiba">
                 </figure>
               </div>
               <div class="card-content">
@@ -196,11 +196,11 @@
 
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/peoplegetup.jpg" alt="People Get Up And Drive Your Funky Soul">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/peoplegetup.jpg" alt="People Get Up And Drive Your Funky Soul">
                 </figure>
               </div>
               <div class="card-content">
@@ -227,11 +227,11 @@
           </div>
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/rescue.jpg" alt="Rescue (chill mix)">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/rescue.jpg" alt="Rescue (chill mix)">
                 </figure>
               </div>
               <div class="card-content">
@@ -258,11 +258,11 @@
           </div>
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/youare.jpg" alt="You are the best thing">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/youare.jpg" alt="You are the best thing">
                 </figure>
               </div>
               <div class="card-content">
@@ -298,11 +298,11 @@
     <div class="section">
       <div class="columns">
         <div id="app" class="columns">
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/whitechristmas.jpeg" alt="White christmas">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/whitechristmas.jpeg" alt="White christmas">
                 </figure>
               </div>
               <div class="card-content">
@@ -331,19 +331,19 @@
 
 
 
-          <div v-for="card in cardData" key="card.id" class="column is-4">
+          <div v-for="card in cardData" key="card.id" class="column is-one-quarter-desktop">
             <div class="card large">
               <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="img/lordremindme.jpg" alt="Lord Remind Me">
+                <figure class="image is-square">
+                  <img class ="pics" src="img/lordremindme.jpg" alt="Lord Remind Me">
                 </figure>
               </div>
-                
+
               <div class="card-content">
                 <span class="tag is-danger">CHRISTMAS</span>
                 <span class="tag is-primary">CHRISTIAN</span>
                 <div class="media">
-                  
+
                   <div class="media-content">
                     <p class="title is-4 no-padding">Lord Remind me</p>
                     <p>
