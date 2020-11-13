@@ -10,3 +10,29 @@
 .section {
     padding: 5%;
 }
+
+.pics {
+    object-fit: cover;
+}
+
+body {
+
+background-image: url(img/background.jpg);
+background-size: cover;
+}
+
+h1.title {
+    color: white
+}
+
+p.subtitle {
+    color: white
+}
+
+.container {
+    background-color: #ffffff94;
+    
+}
+.card-content {
+    background-color: rgba(17, 75, 41, 0.568);
+}
